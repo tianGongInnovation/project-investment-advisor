@@ -1,6 +1,6 @@
 {
   "name": "project-investment-advisor",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Evaluates early-stage projects with a self-contained contrarian framework — a 20-item negative list, 8 analytical pillars and an 8-section report — delivering a 100-point scored verdict in which every conclusion is traceable to a numbered rule.",
   "author": {
     "name": "天工创新坊",
@@ -21,14 +21,14 @@
     "zh": "反主流天使投资人"
   },
   "displayDescription": {
-    "en": "Evaluates projects with a contrarian 20-item negative-list framework and a 100-point scored verdict. Refuses to invest in what mainstream VC chases — policy favorites, agriculture, frontier tech, internet platforms.",
-    "zh": "用反主流的 20 条负面清单评估早期项目，输出 100 分制可溯源评分报告，专筛主流风投追捧方向。"
+    "en": "Evaluates early-stage projects with a contrarian 20-item negative list and a 100-point traceable verdict. Screens out what mainstream VC chases — policy favorites, agriculture, frontier tech, internet platforms — and also coaches strategy direction with an original fourth-industry (capital operation) framework.",
+    "zh": "按 20 条负面清单评估早期项目，输出 100 分制可溯源评分；重点筛除主流风投追捧方向，并以第四产业框架做战略辅导。"
   },
   "avatar": "avatars/expert.png",
   "categoryId": "08-FinanceInvestment",
   "defaultInitPrompt": {
-    "zh": "我是项目投资评估顾问。\n\n把商业计划书（PPT/Word/PDF）发给我，或直接说要投什么项目，我用反主流的 20 条负面清单 + 100 分制评分给你判断。\n\n👇 点下面「试试这样问我」开始，或直接打字。",
-    "en": "I'm a contrarian project investment advisor.\n\nShare your business plan (PPT/Word/PDF) or describe what you want to invest in, and I'll score it with my contrarian 20-item negative-list framework and a 100-point verdict.\n\n👇 Click 'Try asking me' below, or just type your question."
+    "zh": "项目投资评估顾问，按 20 条负面清单与 100 分制评分对项目作出判断。\n\n请提供商业计划书（PPT/Word/PDF），或直接说明拟投项目。\n\n👇 点下方「试试这样问我」开始，或直接输入。",
+    "en": "Project Investment Advisor — evaluates projects with a 20-item negative list and a 100-point traceable verdict.\n\nShare a business plan (PPT/Word/PDF), or describe the project you are considering.\n\n👇 Click 'Try asking me' below, or just type your question."
   },
   "plugin": "project-investment-advisor",
   "tags": [
@@ -37,11 +37,11 @@
     { "en": "Negative-List Framework", "zh": "负面清单评估" }
   ],
   "quickPrompts": [
-    { "en": "I'm a contrarian project investment advisor.\n\nShare your business plan (PPT/Word/PDF) or describe what you want to invest in, and I'll score it with my contrarian 20-item negative-list framework and a 100-point verdict.\n\n👇 Click 'Try asking me' below, or just type your question.",
-      "zh": "我是项目投资评估顾问。\n\n把商业计划书（PPT/Word/PDF）发给我，或直接说要投什么项目，我用反主流的 20 条负面清单 + 100 分制评分给你判断。\n\n👇 点下面「试试这样问我」开始，或直接打字。" },
-    { "en": "I'm considering investing in an agriculture startup. Run it through your 20-item negative list and tell me if I should proceed.",
-      "zh": "我想投一个农业项目。请用 20 条负面清单给我跑一遍，看该不该投。" },
-    { "en": "A founder pitched me a frontier-tech project with national-policy support. Run a full evaluation and score it.",
-      "zh": "有个创始人推荐一个高科技项目，国家政策还支持。请给我做一次完整评估并打分。" }
+    { "en": "Project Investment Advisor — evaluates projects with a 20-item negative list and a 100-point traceable verdict.\n\nShare a business plan (PPT/Word/PDF), or describe the project you are considering.\n\n👇 Click 'Try asking me' below, or just type your question.",
+      "zh": "项目投资评估顾问，按 20 条负面清单与 100 分制评分对项目作出判断。\n\n请提供商业计划书（PPT/Word/PDF），或直接说明拟投项目。\n\n👇 点下方「试试这样问我」开始，或直接输入。" },
+    { "en": "I am considering an agriculture project. Evaluate its investment value against your 20-item negative list.",
+      "zh": "拟投一个农业项目，请按 20 条负面清单评估其投资价值。" },
+    { "en": "A frontier-tech project with national-policy support. Run a full evaluation and score it.",
+      "zh": "有一个高科技项目，获国家政策支持，请做完整评估并评分。" }
   ]
 }
