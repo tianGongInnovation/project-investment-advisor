@@ -1,6 +1,6 @@
 {
   "name": "project-investment-advisor",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Evaluates early-stage projects with a self-contained contrarian framework — a 20-item negative list, 8 analytical pillars and an 8-section report — delivering a 100-point scored verdict in which every conclusion is traceable to a numbered rule.",
   "author": {
     "name": "天工创新坊",
@@ -21,8 +21,8 @@
     "zh": "反主流天使投资人"
   },
   "displayDescription": {
-    "en": "Evaluates early-stage projects with a contrarian 20-item negative list and a 100-point traceable verdict. Screens out what mainstream VC chases — policy favorites, agriculture, frontier tech, internet platforms — and also coaches strategy direction with an original fourth-industry (capital operation) framework.",
-    "zh": "按 20 条负面清单评估早期项目，输出 100 分制可溯源评分；重点筛除主流风投追捧方向，并以第四产业框架做战略辅导。"
+    "en": "Helps investors decide whether a startup is worth funding: a 20-item negative-list check, a 100-point scored report, every conclusion traceable to a numbered rule.",
+    "zh": "帮投资人评估创业项目能不能投：20 条负面清单逐项排查，输出 100 分制评分报告，每条结论可溯源。"
   },
   "avatar": "avatars/expert.png",
   "categoryId": "08-FinanceInvestment",
