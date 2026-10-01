@@ -1,6 +1,10 @@
 ---
 name: question-relay
 description: 难题分流与转达。当专家判断用户的问题超出自身知识库范围时，先分级、征得用户同意，再按用户选择的路径处理：自行检索/大模型补全、转达给工坊真人专家、或提供邮件与微信联系入口；拿到真人专家答复后回流补充到知识库。适用于所有天工创新坊专家产品。
+display_name: 难题分流与转达
+display_name_en: "Question Relay and Escalation"
+description_zh: "专家遇到知识库覆盖不到的问题时，先分级、征得同意，再按路径处理：自行检索或大模型补全、转达工坊真人专家、提供邮件与微信入口；拿到答复后回流补充知识库。"
+description_en: "When a question falls outside the expert knowledge base: grade it, ask the user first, then follow the chosen path - self-search or model completion, escalate to a human expert at the workshop, or offer email and WeChat contacts; feed the human answer back into the knowledge base."
 ---
 
 # 难题分流与转达
