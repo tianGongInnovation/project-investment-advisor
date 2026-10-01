@@ -1,0 +1,4 @@
+interface:
+  display_name: 项目投资价值评估
+  short_description: 依据自成体系的投资理念评估项目的投资价值与风险
+  default_prompt: 请根据我提供的项目资料，完成独立投资价值评估，给出评分、结论、负面清单命中项、待核实问题和必要的技术赋能建议。
