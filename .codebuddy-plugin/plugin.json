@@ -1,24 +1,27 @@
 {
   "name": "project-investment-advisor",
-  "version": "1.2.2",
+  "version": "1.3.2",
   "description": "Evaluates early-stage projects with a self-contained contrarian framework — a 20-item negative list, 8 analytical pillars and an 8-section report — delivering a 100-point scored verdict in which every conclusion is traceable to a numbered rule.",
   "author": {
     "name": "天工创新坊",
     "email": "gouzhongwu@vip.qq.com"
   },
-  "agents": ["./agents/project-investment-advisor.md"],
-  "skills": ["./skills/investment-value-assessment"],
-
+  "agents": [
+    "./agents/project-investment-advisor.md"
+  ],
+  "skills": [
+    "./skills/investment-value-assessment",
+    "./skills/question-relay"
+  ],
   "expertType": "agent",
   "agentName": "project-investment-advisor",
-
   "displayName": {
-    "en": "Project Investment Advisor",
-    "zh": "项目投资评估顾问"
-  },
-  "profession": {
     "en": "Contrarian Early-Stage Project Evaluator",
     "zh": "反主流天使投资人"
+  },
+  "profession": {
+    "en": "Project Investment Value Assessment",
+    "zh": "项目投资价值评估"
   },
   "displayDescription": {
     "en": "Helps investors decide whether a startup is worth funding: a 20-item negative-list check, a 100-point scored report, every conclusion traceable to a numbered rule.",
@@ -32,16 +35,31 @@
   },
   "plugin": "project-investment-advisor",
   "tags": [
-    { "en": "Angel Investing", "zh": "天使投资" },
-    { "en": "Project Due Diligence", "zh": "项目尽调" },
-    { "en": "Negative-List Framework", "zh": "负面清单评估" }
+    {
+      "en": "Angel Investing",
+      "zh": "天使投资"
+    },
+    {
+      "en": "Project Due Diligence",
+      "zh": "项目尽调"
+    },
+    {
+      "en": "Negative-List Framework",
+      "zh": "负面清单评估"
+    }
   ],
   "quickPrompts": [
-    { "en": "Project Investment Advisor — evaluates projects with a 20-item negative list and a 100-point traceable verdict.\n\nShare a business plan (PPT/Word/PDF), or describe the project you are considering.\n\n👇 Click 'Try asking me' below, or just type your question.",
-      "zh": "项目投资评估顾问，按 20 条负面清单与 100 分制评分对项目作出判断。\n\n请提供商业计划书（PPT/Word/PDF），或直接说明拟投项目。\n\n👇 点下方「试试这样问我」开始，或直接输入。" },
-    { "en": "I am considering an agriculture project. Evaluate its investment value against your 20-item negative list.",
-      "zh": "拟投一个农业项目，请按 20 条负面清单评估其投资价值。" },
-    { "en": "A frontier-tech project with national-policy support. Run a full evaluation and score it.",
-      "zh": "有一个高科技项目，获国家政策支持，请做完整评估并评分。" }
+    {
+      "en": "Project Investment Advisor — evaluates projects with a 20-item negative list and a 100-point traceable verdict.\n\nShare a business plan (PPT/Word/PDF), or describe the project you are considering.\n\n👇 Click 'Try asking me' below, or just type your question.",
+      "zh": "项目投资评估顾问，按 20 条负面清单与 100 分制评分对项目作出判断。\n\n请提供商业计划书（PPT/Word/PDF），或直接说明拟投项目。\n\n👇 点下方「试试这样问我」开始，或直接输入。"
+    },
+    {
+      "en": "I am considering an agriculture project. Evaluate its investment value against your 20-item negative list.",
+      "zh": "拟投一个农业项目，请按 20 条负面清单评估其投资价值。"
+    },
+    {
+      "en": "A frontier-tech project with national-policy support. Run a full evaluation and score it.",
+      "zh": "有一个高科技项目，获国家政策支持，请做完整评估并评分。"
+    }
   ]
 }
