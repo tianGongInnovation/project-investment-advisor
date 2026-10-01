@@ -17,7 +17,7 @@ Agent 型（单个 AI 专家）
 
 ## 使用示例
 
-- 我是项目投资评估顾问。把你的商业计划书（PPT/Word/PDF）发给我，或直接说要投什么，我用反主流的负面清单给你打分、给判断。
+- 我做项目投资价值评估。把你的商业计划书（PPT/Word/PDF）发给我，或直接说要投什么，我用反主流的负面清单给你打分、给判断。
 - 我想投一个农业项目。请用 20 条负面清单给我跑一遍，看该不该投。
 - 有个创始人推荐一个高科技项目，国家政策还支持。请给我做一次完整评估并打分。
 
@@ -57,3 +57,4 @@ zip -r project-investment-advisor.zip project-investment-advisor/
 ---
 
 > 本专家由天工创新坊开发，遵循 CC BY 4.0 许可。
+> 空间主页（关于我们）：https://www.workbuddy.cn/space/s/OvjPE71TnySWT8ojAVktVa
